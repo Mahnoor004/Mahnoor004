@@ -1,0 +1,7 @@
+tuple=(('red',100),('blue',101),('green',102))
+color=input("Input the color ")
+for i in tuple:
+    sub_tuple=i
+    if color in sub_tuple:
+        x=sub_tuple.index(color)
+        print('Your color code is ',sub_tuple[x+1])
